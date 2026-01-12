@@ -68,3 +68,16 @@ skills.
 ```bash
 git clone https://github.com/MonashTee/python-job-portfolio.git
 
+## Week 1 Wrap-Up
+
+Week 1 focused on establishing a professional Python data analysis 
+workflow 
+using real-world economic data. The project covered data sourcing, 
+cleaning, 
+reshaping into tidy format, exploratory analysis, and documentation.
+
+This week emphasized reproducibility, clear project structure, and version 
+control through daily Git commits. The completed analysis serves as a 
+foundation for more advanced Python workflows.
+
+
