@@ -1,83 +1,60 @@
-# Python Job Portfolio
+# GDP Per Capita Analysis
 
-This repository contains my Python projects aimed at building a 
-professional data analytics portfolio. 
-Each week I work on real-world datasets, document my workflow, and commit 
-daily to GitHub.
+## Project Overview
 
----
+This repository contains a data analysis project that explores global GDP 
+per capita trends using World Bank economic data. The analysis 
+demonstrates structured data preparation, exploratory data analysis, and 
+comparative insights across countries using Python.
 
-## Week 1: World Bank GDP per Capita Analysis
+The project focuses on:
+- Long-term global trends in GDP per capita
+- Country-level comparisons over time
+- Growth rates and ranking changes among selected countries
 
-**Project Goal:**  
-- Source GDP per capita (current US$) data from the World Bank's World 
-Development Indicators.  
-- Organize the raw data in a clean project structure.  
-- Load and inspect the dataset in Python using pandas to prepare for 
-cleaning and analysis.
+## Tools and Techniques
 
-**Data Source:**  
-- [World Bank DataBank – World Development 
-Indicators](https://databank.worldbank.org/source/world-development-indicators)  
-- Indicator: GDP per capita (current US$)  
-- Countries: 217  
-- Years: 25 (most recent)
+The analysis was conducted using:
+- Python
+- pandas, numpy, matplotlib
+- Jupyter Notebook
 
----
+Key techniques include data cleaning and validation, time-series trend 
+analysis, and comparative growth analysis.
 
-## Project Structure
+## Data Source
 
-python-job-portfolio/
-│
-├── week_01/
-│ ├── data/ # Raw dataset(s)
-│ │ └── world_bank_gdp_per_capita.csv
-│ └── notebooks/ # Python notebooks
-│ └── basic_economic_data.ipynb
-├── .gitignore
-└── README.md
+The dataset is sourced from the World Bank’s World Development Indicators:
+- Indicator: GDP per capita (current US$)
+- Source: World Bank DataBank
 
+Details on data preparation and validation are documented within the 
+analysis notebook.
 
----
+## Key Findings
 
-## Week 1 Tasks
+- Global GDP per capita increased steadily over the observed period, with 
+occasional slowdowns.
+- Significant and persistent income disparities exist between 
+higher-income and lower-income countries.
+- While all selected countries experienced growth, the pace and magnitude 
+varied, resulting in mostly stable rankings over time.
 
-| Day | Task Description |
-|-----|-----------------|
-| Day 0 | Set up project folder structure and initial notebook |
-| Day 1 | Load and inspect GDP per capita data in Python, check dataset 
-shape and columns |
-| Day 2 | Clean and reshape dataset (handle missing values, format 
-columns) |
-| Day 3 | Perform exploratory data analysis (EDA) and create basic 
-visualizations |
-
-**Notes:**  
-- Each notebook contains **step-by-step explanations** and descriptive 
-variable names to demonstrate best practices in data handling and 
-analysis.  
-- GitHub commits are made **daily** to show progress and version control 
-skills.  
-
----
-
-## How to Run
+## How to Run the Project
 
 1. Clone the repository:
+   ```bash
+   git clone https://github.com/MonashTee/python-job-portfolio.git
 
-```bash
-git clone https://github.com/MonashTee/python-job-portfolio.git
+pip install -r requirements.txt
 
-## Week 1 Wrap-Up
+jupyter notebook week_01/notebooks/basic_economic_data.ipynb
 
-Week 1 focused on establishing a professional Python data analysis 
-workflow 
-using real-world economic data. The project covered data sourcing, 
-cleaning, 
-reshaping into tidy format, exploratory analysis, and documentation.
-
-This week emphasized reproducibility, clear project structure, and version 
-control through daily Git commits. The completed analysis serves as a 
-foundation for more advanced Python workflows.
+python-job-portfolio/
+├── week_01/
+│   └── notebooks/
+│       └── basic_economic_data.ipynb
+├── .gitignore
+└── README.md
 
 
